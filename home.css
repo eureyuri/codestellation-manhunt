@@ -1,0 +1,235 @@
+/*
+ * Globals
+ */
+
+
+/* Links */
+a,
+a:focus {
+  color: #fff;
+}
+a:hover {
+    color:#898c90;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 0px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 64px;
+}
+
+.ul .nav .masthead-nav {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 400px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    top: 0;
+  }
+  .mastfoot {
+    bottom: 0;
+    position: fixed;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+.lead {
+    font-size: 24px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 48px 15px;
+}
+
+.navbar-form {
+  margin-top: 28px;
+}
+
+.parallax
+{
+  background-image: url("images/main.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.button{
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
