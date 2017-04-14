@@ -1,5 +1,5 @@
 # codestellation-manhunt
-Developed at Codestellation in 2016.
+<h4>Developed at Codestellation in 2016.</h4>
 
 Inspiration: Making technology social.
 
