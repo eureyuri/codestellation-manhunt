@@ -3,6 +3,8 @@
 
 Inspiration: Making technology social.
 
+What it does: Web application that tracks the geolocation of a user. Stores all user and game information in vertica database.
+
 Function: Web application that tracks the geolocation of a user. Stores all user and game information in Vertica database.
 
 Built with: Spark web application with Vertica database.
